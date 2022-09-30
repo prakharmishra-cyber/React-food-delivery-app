@@ -34,18 +34,18 @@ const featureData = [
   {
     title: "Quick Delivery",
     imgUrl: featureImg01,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Steaming hot meals at your doorsteps in a blink of an eye.",
   },
 
   {
     title: "Super Dine In",
     imgUrl: featureImg02,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Get Best Restaurant options from our best curated list of dining places.",
   },
   {
     title: "Easy Pick Up",
     imgUrl: featureImg03,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Get your order easily picked up with any hassle",
   },
 ];
 
@@ -105,8 +105,7 @@ const Home = () => {
                 </h1>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                  magni delectus tenetur autem, sint veritatis!
+                Get your favourite food at your doorsteps. Order Now 
                 </p>
 
                 <div className="hero__btns d-flex align-items-center gap-5 mt-4">
@@ -145,7 +144,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-
+      &#8377;
       <section className="pt-0">
         <Category />
       </section>
@@ -160,12 +159,10 @@ const Home = () => {
                 we will <span>take care</span>
               </h2>
               <p className="mb-1 mt-4 feature__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                officiis?
+              Why you should order from us?
               </p>
               <p className="feature__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, eius.{" "}
+              We treat our customers with respect and value their time.{" "}
               </p>
             </Col>
 
@@ -257,10 +254,9 @@ const Home = () => {
                   Why <span>Tasty Treat?</span>
                 </h2>
                 <p className="tasty__treat-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum, minus. Tempora reprehenderit a corporis velit,
-                  laboriosam vitae ullam, repellat illo sequi odio esse iste
-                  fugiat dolor, optio incidunt eligendi deleniti!
+                  Tasty Treat is one of a kind service in India. Other services
+                  focus on metro cities but we focus on small towns too. Now, 
+                  they could also benefit and enjoy our services at their doorsteps.
                 </p>
 
                 <ListGroup className="mt-4">
@@ -270,8 +266,7 @@ const Home = () => {
                       foods
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Quia, voluptatibus.
+                      Steaming hot meals at your doorsteps in a blink of an eye.
                     </p>
                   </ListGroupItem>
 
@@ -280,8 +275,7 @@ const Home = () => {
                       <i class="ri-checkbox-circle-line"></i> Quality support
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                      Best customer support as we value our customer the most.
                     </p>
                   </ListGroupItem>
 
@@ -291,8 +285,7 @@ const Home = () => {
                       location{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                     Location's no more a limit as we are available in smallest of towns.
                     </p>
                   </ListGroupItem>
                 </ListGroup>
@@ -328,9 +321,8 @@ const Home = () => {
                   What our <span>customers</span> are saying
                 </h2>
                 <p className="testimonial__desc">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Distinctio quasi qui minus quos sit perspiciatis inventore
-                  quis provident placeat fugiat!
+                  A business is always evaluated on what is customers are saying. so let's
+                  read what our customers have to say about us!
                 </p>
 
                 <TestimonialSlider />
